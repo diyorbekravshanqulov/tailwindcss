@@ -713,6 +713,18 @@ video {
   margin-right: 1rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -763,6 +775,14 @@ video {
 
 .max-w-\[400px\] {
   max-width: 400px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .-translate-x-1\/2 {
@@ -837,6 +857,14 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .divide-x > :not([hidden]) ~ :not([hidden]) {
@@ -1042,6 +1070,21 @@ video {
   padding-bottom: 4rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-9 {
   padding-bottom: 2.25rem;
 }
@@ -1197,6 +1240,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-inner {
+  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-\[\#CFCFCF\] {
   --tw-shadow-color: #CFCFCF;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1260,4 +1309,9 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#359740\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(53 151 64 / var(--tw-text-opacity));
 }
